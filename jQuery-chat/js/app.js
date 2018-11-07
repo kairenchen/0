@@ -4,7 +4,7 @@ var PORT = 8081;
 /*定义用户数组*/
 var users = [];
 
-app.listen(PORT);
+app.listen(PORT,'172.16.13.158');
 
 io.on('connection', function (socket) {
 	/*是否是新用户标识*/
